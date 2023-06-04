@@ -35,14 +35,11 @@ public class MyProgram
         {
             Console.WriteLine("Wynik mnozenia to: " + a * b);
         }
-        for (b = 0; b <= 0; b++)
+        while (b == 0)
         {
             Console.WriteLine("Wynik dzielenia to: " + a + "/0");
-            while (b == 0)
-            {
-                Console.WriteLine("Uruchom program ponownie, aby wykonac nastepne dzialanie");
-                a = (int) inputValue();
-            }
+            Console.WriteLine("Uruchom program ponownie, aby wykonac nastepne dzialanie");
+            a = (int) inputValue();
         }
         if (c == 4)
         {
